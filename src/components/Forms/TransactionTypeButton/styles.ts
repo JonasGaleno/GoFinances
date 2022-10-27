@@ -40,7 +40,7 @@ export const Button = styled(RectButton)`
 
 export const Icon = styled(Feather)<IconProps>`
     font-size: ${RFValue(24)}px;
-    margin-left: 12px;
+    margin-right: 12px;
 
     color: ${({ type, theme }) => 
         type === 'up' ? theme.colors.success : theme.colors.warning
